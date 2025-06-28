@@ -1,3 +1,23 @@
-Welcome to my Open-Source repository for all versions of my PrancerAI Discord Bot. Here, you can see my progress, or use it for your own. Do NOT distribute closed source versions of my project, as my project is strictly open source.
+# Discord Gemini Persona Bot
 
-My contact information: prism404 on Discord.
+## Setup
+
+1. Install dependencies:
+   ```sh
+   npm install discord.js axios
+   ```
+2. Set your environment variables (create a `.env` file or set in your system):
+   - `DISCORD_TOKEN` = Your Discord bot token
+   - `GEMINI_API_TOKEN` = Your Google Gemini Studio API token
+
+3. Start the bot:
+   ```sh
+   node index.js
+   ```
+
+## Commands
+- `+persona [persona]` — Set the bot's persona for this channel.
+- `+instructions [instructions]` — Set strict instructions for the persona in this channel.
+- `+ks` — Power off the bot manually.
+
+The bot will only respond in a channel if both persona and instructions are set. It will strictly follow the persona and instructions, never breaking character.

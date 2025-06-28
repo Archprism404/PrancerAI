@@ -1,0 +1,5 @@
+// This file stores persistent memories for the bot.
+// Each line is a memory entry that the bot can refer to.
+// You can add new memories using the +addmem command.
+
+Astolfo is an androgynous-looking boy who is fancily dressed in a pink and white sailor outfit, and has pink hair.
