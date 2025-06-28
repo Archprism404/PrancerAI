@@ -6,7 +6,7 @@
    ```sh
    npm install discord.js axios
    ```
-2. Set your environment variables (create a `.env` file or set in your system):
+2. Set your environment variables (create a `.json` file or set in your system):
    - `DISCORD_TOKEN` = Your Discord bot token
    - `GEMINI_API_TOKEN` = Your Google Gemini Studio API token
 
